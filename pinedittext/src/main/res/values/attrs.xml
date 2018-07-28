@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="UEditText">
+        <attr name="length" format="integer" />
+        <attr name="size" format="dimension"/>
+        <attr name="hint" format="string|reference"/>
+        <attr name="width" format="dimension"/>
+        <attr name="height" format="dimension"/>
+        <attr name="colorFilled" format="reference"/>
+        <attr name="color" format="reference"/>
+        <attr name="input" format="enum">
+            <enum name="number" value="0"/>
+            <enum name="string" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="state_filled" format="boolean" />
+        <attr name="state_empty" format="boolean" />
+    </declare-styleable>
+
+</resources>
